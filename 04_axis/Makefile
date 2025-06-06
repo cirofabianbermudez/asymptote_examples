@@ -22,7 +22,7 @@ ROOT_DIR    := $(CURDIR)
 OUT_DIR     := $(ROOT_DIR)/output
 
 #Files
-FILE = plot2.asy
+FILE = *.asy
 
 # Colors
 C_RED := \033[31m
@@ -49,7 +49,7 @@ compile: ## Compilation Asymptote
 #______________________________________________________________________________
 
 .PHONY: clean
-compile: ## Clean generated files
+clean: ## Clean generated files
 	@echo -e "$(C_ORA)Deleting generated files...$(NC)"
 	rm -rf *.pdf *.eps *.aux *.log 
 #______________________________________________________________________________
