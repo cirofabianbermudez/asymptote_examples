@@ -11,4 +11,3 @@ asy --version
 ## References
 
 [An Asymptote tutorial](https://asymptote.sourceforge.io/asymptote_tutorial.pdf)
-
